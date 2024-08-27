@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinabam</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body style="background-color: #4A00A9">
+    <div class="main_rectangle">
+        <form class="form">
+            <p class="text_welc"><span style="color: white">Welcome!</span></p>
+            <p class="text_log"><span style="color: white">Login</span></p>
+            <input class="input_auth_log" type="text" name="login" id="username" />
+            <p class="text_log"><span style="color: white">Password</span></p>
+            <input class="input_auth_pass" type="password" name="password" id="password" />
+            <button type="submit" class="button_log"><span style="color: white">Log in</button>
+        </form>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>

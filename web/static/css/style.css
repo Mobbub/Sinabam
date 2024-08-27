@@ -1,0 +1,70 @@
+.main_rectangle {
+    background-color: #6700ff;
+    border-radius: 28px;
+    height: 700px; 
+    width: 600px;
+    margin-top: 161px;  /* y 161px */ 
+    margin-left: 674px; /* x 674px */
+}
+
+.input_auth_log {
+    border-radius: 28px;
+    position: relative;
+    outline: none;
+    height: 60px; 
+    width: 410px;
+    top: 110px;
+    left: 80px;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 15px;
+    color: #350085
+}
+
+.input_auth_pass {
+    border-radius: 28px;
+    position: relative;
+    outline: none;
+    height: 60px;
+    width: 410px;
+    top: 110px;
+    left: 80px;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 15px;
+    color: #350085
+}
+
+.text_log {
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.text_welc {
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+    top: 100px;
+    left: 210px;
+}
+
+.button_log {
+    background-color: #8F00FF;
+    position: relative;
+    border:none;
+    border-radius: 28px;
+    height: 122px; 
+    width: 380px;
+    top: 180px;
+    left: 102px;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.button_log:active {
+    background-color: #b97ee6;
+}
